@@ -1,0 +1,21 @@
+Part 4: Melanoma PBMC samples at baseline (day 0) from miraclib-treated patients
+656 samples from 656 subjects
+
+Samples per project:
+project  n_samples
+   prj1        384
+   prj2          0
+   prj3        272
+
+Subjects by response:
+     response  n_subjects
+    responder         331
+non-responder         325
+
+Subjects by sex:
+   sex  n_subjects
+  male         344
+female         312
+
+Melanoma males (all sample types and treatments), responders, time 0:
+Average B cell count: 10206.15

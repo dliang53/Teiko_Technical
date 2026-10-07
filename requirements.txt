@@ -1,0 +1,5 @@
+pandas>=2.0
+scipy>=1.11        # false_discovery_control (Benjamini-Hochberg) was added in 1.11
+matplotlib>=3.9    # boxplot(tick_labels=...) was added in 3.9
+streamlit>=1.45    # dashboard (st.pills and the theme options used need 1.45+)
+plotly>=5.20       # interactive dashboard charts

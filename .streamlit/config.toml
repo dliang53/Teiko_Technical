@@ -1,0 +1,22 @@
+# Dashboard settings, read automatically when the dashboard starts
+# (`python dashboard.py` or `make dashboard`).
+
+[server]
+port = 8501
+headless = true                      # don't try to open a browser or ask for an email on first run
+
+[theme]
+base = "light"
+primaryColor = "#2a78d6"             # buttons, selected filters, active controls
+backgroundColor = "#f4f6fa"          # page background (soft blue-grey)
+secondaryBackgroundColor = "#ffffff" # input boxes and widgets
+textColor = "#1b2433"
+borderColor = "#e3e8ef"
+font = "sans-serif"
+baseRadius = "0.6rem"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
